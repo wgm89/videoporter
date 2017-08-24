@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+}
+.container{
+    width:100%;
+}
+.search_header {
+    margin-top: 26px;
+    padding: 0px 49px 0 45px;
+}
+.search_container {
+    padding: 10px 20px 30px;
+    max-width: 595px;
+    max-width: 595px;
+    margin:auto;
+}
+.search_info {
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+.search_box{
+    height:100px !important;
+    resize: none;
+    font-size:15px;
+}
+.search_box:focus{
+    outline:none;
+    box-shadow: 0 0 0px #ccc;
+    border-color: #ccc;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+textarea, button{
+    border-radius:0px !important;
+}
+.form-group{
+    text-align:center;
+}
+.demo_but{
+    width:20%;
+    height:40px;
+    color:#223843 !important;
+}
+.search_but{
+    width:20%;
+    height:40px;
+    color:#fff !important;
+    background-color:#223843;
+    border-color:#223843;
+}
+
+.search_but.focus,.btn-info:focus {
+    color: #fff;
+    background-color:#223843;
+    border-color:#223843;
+}
+
+.search_but:hover, .search_but:active {
+    color: #fff;
+    background-color:#223843;
+    border-color:#223843;
+}
+.search_box_container{
+    position:relative;
+}
+.searchbox_tip{
+    width:16%;
+    position:absolute;
+    left:42%;
+    top:30%;
+    color:#ccc
+}
+.modal-dialog{
+    width:630px;
+}
+.modal-header{
+    color:#fff;
+    background-color:#223843;
+}
+.bootstrap-dialog.type-primary .modal-header {
+    background-color:#223843;
+}
+.close{
+    color:#fff;
+}
+.modal-header span{
+    color:#fff;
+}
+.modal-footer{
+    background-color:#C9C7C7;
+}
+.loading{
+    display:none;
+}
+.modal-body{
+    word-break:break-all;
+    min-height:150px;
+}
+.bootstrap-dialog-message{
+    text-align:center;
+    font-size:15px;
+}
+.toDownload, .toDownload:hover{
+    font-size:15px;
+    text-decoration:none;
+    color:#223843;
+}
